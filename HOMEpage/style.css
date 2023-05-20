@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background:url('https://www.fifteendesign.co.uk/wp-content/uploads/2016/10/becoming-a-web-developer-in-2016.jpg');
+}
+
+.Wrapper{
+  width: 330px;
+  padding: 1rem 0 1rem 0;
+  margin: 50px auto;
+  background: orange;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  position:relative;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-size: 65px;
+  height: 85px;
+  width: 85px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+h1{
+  font-size: 2rem;
+  color: #07001f;
+}
+p{
+  margin-bottom: 1.7rem;
+}
+form input{
+  width: 85%;
+  outline: none;
+  border: none;
+  background: #dfe9f5;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.recover{
+  text-align: right;
+  font-size: 0.8rem;
+  margin: 0.2rem 1.7rem 0 0;
+}
+.recover a{
+  text-decoration: none;
+  color: #07001f;
+}
+.button{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 85%;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+}
+.button:hover{
+    background-color:coral;
+ }
+  .or{
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+  }
+.not-member{
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+}
+.not-member a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
